@@ -56,3 +56,21 @@ const app = initializeApp(firebaseConfig);
   // Inisialisasi Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
+<div class="container">
+    <h1>Claim Bitcoin - Login</h1>
+    
+    <div id="login-section">
+        <h2>Login</h2>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button id="login-btn">Login</button>
+        <button id="register-btn">Register</button>
+        <p id="login-message"></p>
+    </div>
+
+    <div id="dashboard" style="display: none;">
+        <h2>Selamat Datang!</h2>
+        <p>Email: <span id="user-email"></span></p>
+        <button id="logout-btn">Logout</button>
+    </div>
+</div>
