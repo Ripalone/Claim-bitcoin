@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyD1VhQmS2CX9C2XwbWeLnaPe2FQdaLbObg",
+  authDomain: "claimbitcoin-923d5.firebaseapp.com",
+  projectId: "claimbitcoin-923d5",
+  storageBucket: "claimbitcoin-923d5.firebasestorage.app",
+  messagingSenderId: "591804463668",
+  appId: "1:591804463668:web:b8973b414e4bf670012861",
+  measurementId: "G-CXRCREV1DF"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
     <div class="container">
         <h1>Claim Bitcoin Gratis</h1>
         <p>Tekan tombol di bawah untuk mendapatkan Bitcoin gratis setiap 5 menit!</p>
@@ -17,4 +38,21 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+</html><!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js"></script>
+
+<!-- Firebase Config -->
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyD1VhQmS2CX9C2XwbWeLnaPe2FQdaLbObg",
+    authDomain: "PROJECT_ID.firebaseapp.com",
+    projectId: " claimbitcoin-923d5",
+    storageBucket: "PROJECT_ID.appspot.com",
+    messagingSenderId: "SENDER_ID",
+    appId: "APP_ID"1:591804463668:web:b8973b414e4bf670012861
+  };
+
+  // Inisialisasi Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
